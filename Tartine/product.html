@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.webp" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b35a418092.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap-4.4.1-dist/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shop</title>
+</head>
+
+<body>
+    <div class="containerbody">
+        <!-- ========== header navigation bar section ========== -->
+        <div class="container-header">
+            <!-- ============================== Mobile header and nav =========================================== -->
+            <header id="mobile-header" class="d-lg-none w-100">
+                <div class="open_menu_mobile d-flex justify-content-between align-items-center">
+                    <a href="#" title="" class="menuleft">
+                        <span class="iconmenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </a>
+                    <div class="logo_menumoblie">
+                        <a href="index.html">
+                            <img src="assets/logo_trang.webp" width="140" alt="logo">
+                        </a>
+                    </div>
+                    <div class="menuright d-flex align-items-center justify-content-end">
+                        <ul
+                            class="d-flex justify-content-end align-items-center navbar navbar-expand-lg list-unstyled mb-0 pr-0">
+                            <li class="nav-item"><a href="#" class="nav-link searchIcon"><i
+                                        class="fas fa-search"></i></a>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link"><i
+                                        class="fas fa-shopping-cart basket"></i>
+                                    <sup class="d-flex justify-content-center align-items-center"><span
+                                            class="shopping-count"></span></sup>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box_contentmenu_background">
+                    </div>
+                </div>
+                <div class="box_contentmenu">
+                    <div class="tab_content_menu_mobile">
+                        <ul class="nav nav-tabs toptab_box_content list-unstyled mb-0">
+                            <li class="toptab_li ">
+                                <a class="tab_navar tab_navar_menu active" href="#">
+                                    <span class="tab-menu-icon">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    <span class="ml-3">Menu</span>
+                                </a>
+                            </li>
+                            <li class="toptab_li">
+                                <a class="tab_navar tab_navar_login" href="#">
+                                    <i class="far fa-user"></i>
+                                    <span class="ml-2">Login</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div id="tab_menu_mobile">
+                            <div class="tab-content w-100 position-relative tab-content-menu">
+                                <ul id="tab_menu_mobile"
+                                    class="d-flex flex-column justify-content-start align-items-center w-100 list-unstyled">
+                                    <li class="menu-list w-100 text-left d-flex flex-wrap align-items-center"><a
+                                            href="index.html" class="navmenu d-flex align-items-center">Home</a></li>
+                                    <li class="menu-list w-100 text-left d-flex flex-wrap align-items-center">
+                                        <a href="shop.html" class="navmenu d-flex align-items-center">Shop</a>
+                                        <a href="#" class="toggle-menumobile d-flex align-items-center">
+                                            <i class="fas fa-angle-right open-sub"></i>
+                                            <i class="fas fa-angle-left close-sub"></i>
+                                        </a>
+                                        <div class="mobile-sub-menu w-100">
+                                            <ul class="pl-0 list-unstyled">
+                                                <li><a href="product.html" class="page-name-mobile">Product</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="menu-list w-100 text-left d-flex flex-wrap align-items-center"><a
+                                            href="blog.html" class="navmenu d-flex align-items-center">Blog</a></li>
+                                    <li class="menu-list w-100 text-left d-flex flex-wrap align-items-center">
+                                        <a href="#" class="navmenu d-flex align-items-center">Pages</a>
+                                        <a href="#" class="toggle-menumobile d-flex align-items-center">
+                                            <i class="fas fa-angle-right open-sub"></i>
+                                            <i class="fas fa-angle-left close-sub"></i></a>
+                                        <div class="mobile-sub-menu w-100">
+                                            <ul class="pl-0 list-unstyled">
+                                                <li><a href="about.html" class="page-name-mobile">About us</a></li>
+                                                <li><a href="contact.html" class="page-name-mobile">Contact</a></li>
+                                                <li><a href="product.html" class="page-name-mobile">Product</a></li>
+                                                <li><a href="single-blog.html" class="page-name-mobile">Single-blog</a>
+                                                </li>
+                                                <li><a href="404.html" class="page-name-mobile">404</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content w-100 position-relative tab-content-login">
+                                <div class="login-icon  d-flex align-items-center justify-content-center pb-4"><i
+                                        class="far fa-user"></i></div>
+                                <form method="post" action="" id="customer_login" class="login-form">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="" placeholder="Email adress"
+                                            required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Password" name=""
+                                            required="">
+                                    </div>
+                                    <div class="form-check">
+                                        <a href="#" class="RecoverPassword">Forgot your password?</a>
+                                    </div>
+                                    <button type="submit" class="btn btn-dark w-100 btn-log" value="Log In">Log
+                                        In</button>
+                                </form>
+                                <div
+                                    class="or_creat overflow-hidden d-flex flex-column align-items-center justify-content-center">
+                                    <span>or</span>
+                                    <div><a href="#" class="create_account">Register now
+                                            <i class="fas fa-angle-right"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="close-menu-mobile w-100 text-center">
+                                <i class="fas fa-times mr-3"></i>Close
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- ============================== Cart box =========================================== -->
+            <div class="minicart_box">
+                <div class="position-relative h-100">
+                    <div class="mini-content pt-0">
+                        <div class="mini-cart-head d-flex align-items-center justify-content-between">
+                            <a href="#" class="close-mini-cart d-flex align-items-center justify-content-center"><i
+                                    class="fas fa-times"></i></a>
+                            <h3 class="title">Shopping Cart</h3>
+                            <div class="mini-cart-counter"><span class="cart-counter">0</span></div>
+                        </div>
+                        <div class="mini-cart-main">
+                            <div class="prod">
+                                <div class="product-cart">
+                                    <ul class="minicart_item list-unstyled mb-0 pl-0">
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cart-pd-sub-total d-flex align-items-center justify-content-between">
+                                <span class="total-title">Total:</span>
+                                <span class="total-price"></span>
+                            </div>
+                            <div
+                                class="action-checkout position-absolute d-flex justify-content-between align-items-center w-100">
+                                <a href="cart.html" class="button-viewcart">
+                                    <span>View cart</span>
+                                </a>
+                                <a href="checkout.html" class="button-checkout">
+                                    <span>Check out</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-minicart_box"></div>
+            <!-- ============================== Search box =========================================== -->
+            <div class="search-box w-100">
+                <h3 class="search-title text-center">Start typing and hit Enter</h3>
+                <form class="search-form text-center" action="">
+                    <input type="text" name="" placeholder="Search anything" class="search-input position-relative">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <div class="close-search-box">
+                    <a href="#" class="close-search"><i class="fas fa-times"></i></a>
+                </div>
+            </div>
+            <div class="bg-shearch_box"></div>
+            <!-- ============================== Login and register box =========================================== -->
+            <div class="login-register-menu">
+                <div class="login-menu">
+                    <div class="login-icon-login mr-0">
+                        <a href="#" class="w-100"><img src="assets/logo.webp" alt="Tartine"></a>
+                    </div>
+                    <h2 class="title-tab-login">Great to have you back!</h2>
+                    <form method="post" action="" id="customer_login" class="mt-3">
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="" placeholder="Email adress" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password" name="" required="">
+                        </div>
+                        <div class="form-check">
+                            <a href="#" class="recover">Forgot your password?</a>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100 login-btn" value="Log In">Log In</button>
+                    </form>
+                    <div class="box-register">
+                        <span class="or-register mr-2">Don’t have an account?</span>
+                        <a href="#" class="create_account">Register now<i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- register -->
+                <div class="register-menu">
+                    <div class="register-icon mr-0"><i class="far fa-edit"></i></div>
+                    <h2 class="title-tab-login">REGISTER</h2>
+                    <form method="post" action="" id="customer_login" class="mt-3">
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="" placeholder="Email adress" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password" name="" required="">
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100 login-btn" value="Log In">Register</button>
+                    </form>
+                    <div class="box-register">
+                        <a href="#" class="back-to-login">Back to login<i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-login-register-menu"></div>
+            <!-- ============================== Filter box =========================================== -->
+            <div class="filter-menu">
+                <div class="filter-sidebar">
+                    <div class="close_filter">close <i class="fas fa-times filter-button-close"></i></div>
+                    <h3>Categories</h3>
+                    <ul class="list-filter list-category-toggle toggle-tab list-unstyled">
+                        <li class="item-toggle-tab"><a href="#"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>Croissant</a></li>
+                        <li class="item-toggle-tab"><a href="#"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>Donuts</a></li>
+                        <li class="item-toggle-tab"><a href="#"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>Dough</a></li>
+                        <li class="item-toggle-tab"><a href="#"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>Flour</a></li>
+                        <li class="item-toggle-tab"><a href="#"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>Food</a></li>
+                        <li class="item-toggle-tab"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Pies
+                                Sweet</a></li>
+                    </ul>
+                    <h3>Brand</h3>
+                    <ul class="list-filter list-unstyled list-brand ">
+                        <li class="cat-item">
+                            <a href="#" title="Chocobar"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>Chocobar</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Cookie"><i class="fa fa-angle-right" aria-hidden="true"></i>Cookie</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Cupcakes"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>Cupcakes</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Fruit"><i class="fa fa-angle-right" aria-hidden="true"></i>Fruit</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Giant Cup"><i class="fa fa-angle-right" aria-hidden="true"></i>Giant
+                                Cup</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Strawberry"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>Strawberry</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Truffles"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>Truffles</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Vannila"><i class="fa fa-angle-right" aria-hidden="true"></i>Vannila</a>
+                        </li>
+                    </ul>
+                    <h3>Color option</h3>
+                    <ul class="list-filter list-unstyled list_color d-flex  flex-wrap justify-content-start">
+                        <li class="cat-item">
+                            <a href="#" title="BlueViolet" style="background: BlueViolet">
+                            </a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="White" style="background: White">
+                            </a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Red" style="background: Red">
+                            </a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Brown" style="background: Brown">
+                            </a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Yellow" style="background: Yellow">
+                            </a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Orange" style="background: Orange">
+                            </a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Crimson" style="background: Crimson">
+                            </a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="GoldenRod" style="background: GoldenRod">
+                            </a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="Black" style="background: Black">
+                            </a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="LavenderBlush" style="background: LavenderBlush">
+                            </a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="LightPink" style="background: LightPink">
+                            </a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="LemonChiffon" style="background: LemonChiffon">
+                            </a>
+                        </li>
+                    </ul>
+                    <h3>Size option</h3>
+                    <ul class="list-unstyled list-size d-flex justify-content-start">
+                        <li class="cat-item mr-4">
+                            <a href="#" title="Small">Small</a>
+                        </li>
+                        <li class="cat-item mr-4">
+                            <a href="#" title="Medium">Medium</a>
+                        </li>
+                        <li class="cat-item mr-4">
+                            <a href="#" title="Large">Large</a>
+                        </li>
+                    </ul>
+                    <h3>Price option</h3>
+                    <ul class="list-filter list-none list-price">
+                        <li class="cat-item">
+                            <a href="#" title="$10.00 - $20.00"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>$10.00 - $20.00</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="$20.00 - $30.00"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>$20.00 - $30.00</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="$30.00 - $40.00"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>$30.00 - $40.00</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="$40.00 - $50.00"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>$40.00 - $50.00</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="$50.00+"><i class="fa fa-angle-right" aria-hidden="true"></i>$50.00+</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" title="$100.00+"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i>$100.00+</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-filter-menu"></div>
+            <!-- ============================== Static header and nav =========================================== -->
+            <header id="staticHeader" class="wrapperheader static d-lg-block d-md-none d-sm-none">
+                <div class="row d-flex align-items-center justify-content-center col-12 h-100 p-0">
+                    <div class="col-lg-5 text-left pl-0">
+                        <ul
+                            class="d-flex justify-content-start align-items-center static-nav navbar navbar-expand-lg list-unstyled pl-0 mb-0">
+                            <li class="nav-item mr-3"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item mr-3"><a href="shop.html" class="nav-link">Shop</a></li>
+                            <li class="nav-item mr-3"><a href="blog.html" class="nav-link">Blog</a></li>
+                            <li class="nav-item mr-3"><a href="#" class="nav-link">Pages</a>
+                                <div class="sub_menu">
+                                    <ul>
+                                        <li><a href="about.html" class="page-name">About us</a></li>
+                                        <li><a href="contact.html" class="page-name">Contact</a></li>
+                                        <li><a href="product.html" class="page-name">Product</a></li>
+                                        <li><a href="single-blog.html" class="page-name">Single-blog</a></li>
+                                        <li><a href="404.html" class="page-name">404</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 text-center  p-0">
+                        <div class="logo d-flex justify-content-center align-items-center"><a href="index.html"
+                                class="logo-link"><img src="assets/logo.webp" class="logo" alt="logo" title="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-right pr-0">
+                        <ul
+                            class="d-flex justify-content-end align-items-center navbar navbar-expand-lg list-unstyled pr-0 mb-0">
+                            <li class="nav-item"><a href="#" class="nav-link searchIcon"><i
+                                        class="fas fa-search"></i></a>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link userIcon"><i class="far fa-user"></i></a>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link cartIcon"><i
+                                        class="fas fa-shopping-cart basket"></i>
+                                    <sup class="d-flex justify-content-center align-items-center"><span
+                                            class="shopping-count"></span></sup>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- ========== end of header navigation bar section ========== -->
+        <!-- ========== main section ========== -->
+        <main>
+            <!-- ========== breadcrumbs section ========== -->
+            <div class="containerbody">
+                <div class="prd-bread-crumb">
+                    <a href="/" title="Back to the frontpage">Home<i class="fa fa-angle-right"
+                            aria-hidden="true"></i></a>
+                    <strong>Jewelled Fruit Cake</strong>
+                </div>
+            </div>
+            <div class="containerbody">
+                <div class="wrapperheader prdContainer">
+                    <div class="row pl-0">
+                        <div class="col-lg-6 col-md-7 col-sm-12 col-12 pl-0 paddingRight-0">
+                            <div class="gallery-control">
+                                <div class="row">
+                                    <div class="col-sm-2 prd-img-list paddingRight-0 pl-0">
+                                        <ul class="product-slider list-unstyled d-block">
+                                            <li><img src="assets/pro29_86dd1297-b014-4230-b951-6ef4ddd164c5.webp" alt=""></li>
+                                            <li><img src="assets/pro5.webp" alt=""></li>
+                                            <li><img src="assets/pro24.webp" alt=""></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-10 gutter">
+                                        <div class="prd-main-image">
+                                            <img src="assets/pro5.webp" alt="" class="gutter-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-sm-12 col-12 pl-pr-0">
+                            <div class="wrap-rating pb-3 justify-content-start">
+                                <div class="rating-stars text-left pb-3">
+                                    <span class="span-stars">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                    <span class="spr-badge-caption ml-2">No reviews</span>
+                                </div>
+                                <h2 class="product-title text-left">Jewelled Fruit Cake</h2>
+                                <div class="product-price ">                      
+                                    <h2 class="pd-price price-main text-left">$23.00 USD</h2>
+                                  </div>
+                                  <div class="pd_summary">
+                                    <p class=" mb-0">Caramels wafer bonbon tootsie roll topping topping caramels lemon drops sweet roll. Cookie ice cream bear claw tart I love candy canes pufbrownie cotton candy. Jujubes pudding biscuit.</p>
+                                  </div>
+                                  <form action="" class="addToCard d-flex align-items-center justify-content-start">
+                                      <div>
+                                          <button type="submit" class="add-to-card-button d-flex align-items-center justify-content-center">Add to card</button>
+                                      </div>
+                                      <div class="pd-quantity-box ml-2">
+                                        <button type="button" class="btn-minus outline-none" data-id=""><i class="fas fa-caret-down"></i></button>
+                                        <input type="text" class="pd-quantity" value="1" min="1" data-id="">
+                                        <button type="button" class="btn-plus" data-id=""><i class="fas fa-caret-up"></i></button>
+                                      </div>
+                                    </form>
+                                    <ul class="product-category-info pl-0">
+                                        <li class="mt-3 d-flex justify-content-start">
+                                            <label class="mr-2">Categories :</label>
+                                            <a href="#" class="mr-2">All, </a>
+                                            <a href="#">Cups of cutenes </a>
+                                        </li>
+                                    <li class="d-flex justify-content-start">
+                                        <label class="mr-2">Share :</label>
+                                        <a href="#"><i class="fab fa-twitter mr-2"></i></a>
+                                        <a href="#"><i class="fab fa-facebook-f mr-2"></i></a>
+                                        <a href="#"><i class="fab fa-pinterest-p mr-2"></i></a>
+                                    </li>
+                                </ul>
+                              </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-12 p-0">
+                            <div class="row">
+                              <div class="col-lg-12 col-md-4 p-0">
+                                <div class="content_box d-flex justify-content-center align-items-center">
+                                  <div class="icon">
+                                    <i class="fa fa-truck fz-65"></i>
+                                  </div>
+                                  <div class="pd-content_text">
+                                    <h3 class="title">Free Shipping</h3>
+                                    <div class="text">Free worldwide shipping on orders above 99$</div>
+                                  </div>
+                                </div>
+                              </div> 
+                              <div class="col-lg-12 col-md-4 p-0">
+                                <div class="content_box d-flex justify-content-center align-items-center">
+                                  <div class="icon">
+                                    <i class="fa fa-gift fz-65"></i>
+                                  </div>
+                                  <div class="pd-content_text">
+                                    <h3 class="title">Give a Gift to a Friend</h3>
+                                    <div class="text">Product any fault within 07 days for an immediately exchange.</div>
+                                  </div>
+                                </div>
+                              </div> 
+                              <div class="col-lg-12 col-md-4 p-0">
+                                <div class="content_box d-flex justify-content-center align-items-center">
+                                  <div class="icon">
+                                    <i class="fa fa-heart-o fz-65"></i>
+                                  </div>
+                                  <div class="pd-content_text">
+                                    <h3 class="title">Loved by our Customers</h3>
+                                    <div class="text">Our Support Team Always Ready For You to 7 days a week</div>
+                                  </div>
+                                </div>
+                              </div> 
+                          </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containerbody">
+                <div class="wrapperheader d-block pd-tab-list">
+                    <ul class="nav nav-tabs tab_prod d-flex justify-content-center">
+                        <li>
+                          <a href="#" class="tab-prod-a active" data-index="1">Description</a>
+                        </li>
+                        <li>
+                          <a href="#" class="tab-prod-a" data-index="2">Additional Information</a>
+                        </li>
+                        <li>
+                          <a href="#" class="tab-prod-a" data-index="3">Review</a>
+                        </li>
+                      </ul>
+                      <div class="tab-pane">
+                          <div id="des" class="tab-pane-inner active" data-index="1">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-xs-12 col-sm-6 product-desc text-center">
+                                <h5 class="title">AENEAN A TINCIDUNT FELIS</h5>
+                                <p class="desc">Sed sodales sed orci molestie tristique. Nunc dictum, erat id molestie vestibulum, ex leo vestibulum justo, luctus tempor erat sem quis diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur vulputate elit.</p>
+                                <h5 class="title">NULLA SED ARCU IPSUM</h5>
+                                <p class="desc">Nullam et massa nulla. Quisque nec magna ornare tellus consequat lacinia a quis sem. Vivamus ut posuere nunc. Praesent porttitor vitae augue in semper. Vestibulum non leo et nisi facilisis consequat. Ut volutpat augue faucibus, fermentum turpis convallis, lobortis augue.</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 product-desc"><img src="assets/pro-detail3.png" alt=""></div>
+                                </div>
+                          </div>
+                          <div id="add" class="tab-pane-inner text-center" data-index="2">
+<p>
+    There is a basic, first situation when it’s not a good idea to do intensity prescriptions. That’s when the lifter is a newbie. And there are two really simple reasons for that. First is, that such powerlifters either don’t have 1RMs to base the  on or the 1RMs they have are not correct. The latter reason occurs due to a mix of multiple factors.  Such as limited technical ability, limited mobility, poor neurological efficiency, and the weak power of will. Secondly, new powerlifters usually progress very quickly to the next routines of the
+There are millions of ways on how to compose good weightlifting workout programs. Some coaches stay true to few basic plans on such training. They simply tweak them to be fit for different skills and experience levels. But we are sticking to quite a different plan. We put our focus on intensity (actual weights) prescriptions for any specific powerlifter.  I personally am sure there are times when both approaches are applicable, even within the same workout session…
+  </p>
+                          </div>
+                          <div id="review" class="tab-pane-inner" data-index="3">
+                            <div class="review-header">
+                                <h2 class="header-title">Customer Reviews</h2>
+                                <div class="review-summary d-flex justify-content-between">
+                                    <span>No reviews yet</span>
+                                    <span>
+                                    <a href="#" class="newreview">Write a review</a>
+                                  </span>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </main>
+        <!-- ========== end of main section ========== -->
+        <!-- ========== footer ========== -->
+        <footer>
+            <div class="wrapperfooter">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="info_footer">
+                            <div class="title_footer">
+                                <h4 class="mb-0">MY ACCOUNT</h4>
+                            </div>
+                            <ul class="list-unstyled mb-0">
+                                <li><a href="#" title="My Account">My Account</a></li>
+                                <li><a href="#" title="Login">Login</a></li>
+                                <li><a href="#" title="My Cart">My Cart</a></li>
+                                <li><a href="#" title="Wishlist">Wishlist</a></li>
+                                <li><a href="#" title="Checkout">Checkout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="info_footer">
+                            <div class="title_footer">
+                                <h4 class="mb-0">INFORMATION</h4>
+                            </div>
+                            <ul class="list-unstyled mb-0">
+                                <li><a href="#" title="About Us">About Us</a></li>
+                                <li><a href="#" title="Careers">Careers</a></li>
+                                <li><a href="#" title="Delivery Inforamtion">Delivery Inforamtion</a></li>
+                                <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+                                <li><a href="#" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="info_footer">
+                            <div class="title_footer">
+                                <h4 class="mb-0">CUSTOM SERVICE</h4>
+                            </div>
+                            <ul class="list-unstyled mb-0">
+                                <li><a href="#" title="Shipping Policy">Shipping Policy</a></li>
+                                <li><a href="#" title="Compensation First">Compensation First</a></li>
+                                <li><a href="#" title="My Account">My Account</a></li>
+                                <li><a href="#" title="Return Policy">Return Policy</a></li>
+                                <li><a href="#" title="Contact Us">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <div class="info_footer end">
+                            <div class="title_footer">
+                                <h4 class="mb-0">The good stuff in your inbox</h4>
+                            </div>
+                            <p class="mb-0 content_footer">News &amp; updates from Charmee.<br>No spam, we promise.</p>
+                            <form class="footer_form form-inline" action="#" method="post">
+                                <div class="form-group mb-2">
+                                    <input type="email" name="EMAIL" class="form-control" placeholder="Email">
+                                </div>
+                                <button class="btn mb-2" type="submit">SIGN UP <i
+                                        class="ml-2 fa fa-angle-right"></i></button>
+                            </form>
+                            <div class="list-icon">
+                                <ul class="list-inline list-unstyled mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="https://twitter.com" title="" target="_blank" class="social-item"><i
+                                                class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://dribbble.com/" title="" target="_blank" class="social-item"><i
+                                                class="fa fa-dribbble"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.behance.net/" title="" target="_blank"
+                                            class="social-item"><i class="fa fa-behance"></i></a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://instagram.com" title="" target="_blank" class="social-item"><i
+                                                class="fa fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="wrapperfooter">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6 text-lg-left text-md-left">
+                            <p class="text-copyright mb-0"></p>
+                            <p class="text-copyright mb-0">Website by <a href="#" target="_blank">ShopiLaunch</a>.
+                                Copyright Tartine</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 text-lg-right text-md-right">
+                            <img src="assets/pay.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ========== end of footer ========== -->
+
+        <!-- ========== back to top ========== -->
+        <a href="#" class="back-to-top"><i class="fas fa-chevron-up up" aria-hidden="true"></i></a>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap-4.4.1-dist/bootstrap.min.js"></script>
+    <script src="js/plugins/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
